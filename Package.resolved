@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Tracking",
+        "repositoryURL": "https://github.com/kkla320/Tracking",
+        "state": {
+          "branch": "develop",
+          "revision": "755fd6539aea902a900aa528875bdb2111d43693",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
