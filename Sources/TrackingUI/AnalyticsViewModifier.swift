@@ -13,9 +13,3 @@ struct AnalyticsViewModifier<T>: ViewModifier where T: View {
         }
     }
 }
-
-extension View {
-    public func track<T>(screenName: String, sender: T) -> some View where T: View {
-        return self.modifier(AnalyticsViewModifier(screenName: screenName, sender: sender))
-    }
-}
