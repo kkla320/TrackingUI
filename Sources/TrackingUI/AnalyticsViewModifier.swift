@@ -9,7 +9,7 @@ struct AnalyticsViewModifier<T>: ViewModifier where T: View {
     
     func body(content: Content) -> some View {
         return content.onAppear {
-            analytics.log(event: Events.screenEvent(screenName: screenName, sender: content))
+            analytics.log(event: Events.screenEvent(screenName: screenName, sender: sender))
         }
     }
 }
