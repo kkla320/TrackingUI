@@ -9,7 +9,7 @@ import Tracking
 import SwiftUI
 
 extension EnvironmentValues {
-    public var analytics: Analytics {
+    var analytics: Analytics {
         get {
             self[AnalyticsEnvironmentKey.self]
         }

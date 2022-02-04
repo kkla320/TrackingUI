@@ -8,6 +8,6 @@
 import Tracking
 import SwiftUI
 
-public struct AnalyticsEnvironmentKey: EnvironmentKey {
+struct AnalyticsEnvironmentKey: EnvironmentKey {
     public static var defaultValue: Analytics = Analytics.shared
 }
